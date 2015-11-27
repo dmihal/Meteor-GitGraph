@@ -13,7 +13,7 @@ Package.describe({
 Package.onUse(function(api) {
   api.versionsFrom('1.2.1');
   api.use('ecmascript');
-  api.addFiles('gitgraph.js');
-  api.addFiles('gitgraph.css');
+  api.addFiles('gitgraph.js', 'client');
+  api.addFiles('gitgraph.css', 'client');
 });
 
